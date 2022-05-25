@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T23:35:25.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="KXpxWDHma8fwtxSUrvhS" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T00:36:52.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="y9y7v2HwQeQKAchYsCqy" version="18.1.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1580" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,27 +8,18 @@
           <mxGeometry x="10" y="20" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4E_-Y2zPP1L5DoWa1tGC-45" value="Rotina pra usuário inserir&#xa;e consultar um treino&#xa;(rotina com autenticação)" style="swimlane;startSize=70;" parent="1" vertex="1">
-          <mxGeometry x="90" y="-110" width="210" height="500" as="geometry">
+          <mxGeometry x="90" y="-110" width="210" height="410" as="geometry">
             <mxRectangle x="310" y="20" width="130" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-44" value="Inserir treino&lt;br&gt;(workouts)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="4E_-Y2zPP1L5DoWa1tGC-45" vertex="1">
+        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-44" value="Usuário insere os treinos na sua ficha" style="rounded=0;whiteSpace=wrap;html=1;" parent="4E_-Y2zPP1L5DoWa1tGC-45" vertex="1">
           <mxGeometry x="40" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-46" value="Consultar treino&lt;br&gt;(workouts)" style="rounded=0;whiteSpace=wrap;html=1;" parent="4E_-Y2zPP1L5DoWa1tGC-45" vertex="1">
-          <mxGeometry x="40" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-55" value="Clicando em um botão de &quot;+&quot; o usuário poderá inserir um treino" style="rounded=0;whiteSpace=wrap;html=1;" parent="4E_-Y2zPP1L5DoWa1tGC-45" vertex="1">
+          <mxGeometry x="45" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.7;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.625;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" parent="4E_-Y2zPP1L5DoWa1tGC-45" source="4E_-Y2zPP1L5DoWa1tGC-44" target="4E_-Y2zPP1L5DoWa1tGC-46" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="220" as="sourcePoint" />
-            <mxPoint x="380" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-55" value="Criar conta&lt;br&gt;(users)" style="rounded=0;whiteSpace=wrap;html=1;" parent="4E_-Y2zPP1L5DoWa1tGC-45" vertex="1">
-          <mxGeometry x="45" y="140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-59" value="Login&lt;br&gt;(users)" style="rounded=0;whiteSpace=wrap;html=1;" parent="4E_-Y2zPP1L5DoWa1tGC-45" vertex="1">
-          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-59" value="Após clicar no &quot;+&quot; se não estiver logado, o usuário ira ser direcionado a pagina de login" style="rounded=0;whiteSpace=wrap;html=1;" parent="4E_-Y2zPP1L5DoWa1tGC-45" vertex="1">
+          <mxGeometry x="40" y="230" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4E_-Y2zPP1L5DoWa1tGC-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.575;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="4E_-Y2zPP1L5DoWa1tGC-45" source="4E_-Y2zPP1L5DoWa1tGC-55" target="4E_-Y2zPP1L5DoWa1tGC-59" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -41,15 +32,6 @@
             <mxPoint x="540" y="480" as="sourcePoint" />
             <mxPoint x="590" y="430" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-47" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.017;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4E_-Y2zPP1L5DoWa1tGC-41" target="4E_-Y2zPP1L5DoWa1tGC-55" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="400" as="sourcePoint" />
-            <mxPoint x="690" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-51" value="Lipe&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="310" y="-60" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4E_-Y2zPP1L5DoWa1tGC-52" value="Caso usuário queira consultar &#xa;seu treino.&#xa;Pode ser feito com ou sem&#xa;autenticação." style="swimlane;startSize=90;" parent="1" vertex="1">
           <mxGeometry x="380" y="-110" width="190" height="440" as="geometry" />
@@ -73,12 +55,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="300" as="sourcePoint" />
             <mxPoint x="480" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.017;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4E_-Y2zPP1L5DoWa1tGC-51" target="4E_-Y2zPP1L5DoWa1tGC-61" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="270" as="sourcePoint" />
-            <mxPoint x="680" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4E_-Y2zPP1L5DoWa1tGC-110" value="Caso usuário queira criar um&#xa;treino, fará o login poderá montar&#xa;um treino com base nos exercicios&#xa;" style="swimlane;startSize=80;" parent="1" vertex="1">
@@ -105,38 +81,92 @@
             <mxPoint x="180" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-111" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.033;entryY=0.358;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4E_-Y2zPP1L5DoWa1tGC-51" target="4E_-Y2zPP1L5DoWa1tGC-62" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="-10" as="sourcePoint" />
-            <mxPoint x="710" y="-60" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-113" value="Lipe&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="620" y="-60" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4E_-Y2zPP1L5DoWa1tGC-121" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.014;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4E_-Y2zPP1L5DoWa1tGC-113" target="4E_-Y2zPP1L5DoWa1tGC-116" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="210" as="sourcePoint" />
-            <mxPoint x="870" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4E_-Y2zPP1L5DoWa1tGC-126" value="Caso usuário queira verificar&#xa;o histórico do seu treino semanal&#xa;ou mensal." style="swimlane;rounded=0;gradientColor=none;startSize=60;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="-110" width="290" height="260" as="geometry" />
+          <mxGeometry x="1000" y="-110" width="290" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="JZCF_PAcytD1uoC9HagN-2" value="Usuário fará login,&lt;br&gt;Sendo direcionado&amp;nbsp;&lt;br&gt;a pagina inicial com as opções de uso" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4E_-Y2zPP1L5DoWa1tGC-126">
+        <mxCell id="JZCF_PAcytD1uoC9HagN-2" value="Usuário fará login,&lt;br&gt;Sendo direcionado&amp;nbsp;&lt;br&gt;a pagina inicial com as opções de uso" style="rounded=0;whiteSpace=wrap;html=1;" parent="4E_-Y2zPP1L5DoWa1tGC-126" vertex="1">
           <mxGeometry x="40" y="80" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JZCF_PAcytD1uoC9HagN-3" value="Entrando na aba de histórico o usuário poderá consultar rotinas de treino com informações como:&lt;br&gt;Peso, repetições e tempo decorrido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4E_-Y2zPP1L5DoWa1tGC-126">
+        <mxCell id="JZCF_PAcytD1uoC9HagN-3" value="Entrando na aba de histórico o usuário poderá consultar rotinas de treino com informações como:&lt;br&gt;Peso, repetições e tempo decorrido" style="rounded=0;whiteSpace=wrap;html=1;" parent="4E_-Y2zPP1L5DoWa1tGC-126" vertex="1">
           <mxGeometry x="40" y="170" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JZCF_PAcytD1uoC9HagN-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4E_-Y2zPP1L5DoWa1tGC-126" source="JZCF_PAcytD1uoC9HagN-2" target="JZCF_PAcytD1uoC9HagN-3">
+        <mxCell id="JZCF_PAcytD1uoC9HagN-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="4E_-Y2zPP1L5DoWa1tGC-126" source="JZCF_PAcytD1uoC9HagN-2" target="JZCF_PAcytD1uoC9HagN-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-330" y="240" as="sourcePoint" />
             <mxPoint x="-280" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JZCF_PAcytD1uoC9HagN-5" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="380" y="413" width="200" height="200" as="geometry" />
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-3" value="Rotina para criar conta" style="swimlane;startSize=60;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="-110" width="200" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-5" value="Após entrar no aplicativo, o usuário tera a opção clicar no botão entrar ou criar conta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UiU7_h_Eb1dnMHofWjaY-3">
+          <mxGeometry x="40" y="80" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-6" value="Se clicar no botão criar conta, o mesmo terá a opção de inserir um login e uma senha" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UiU7_h_Eb1dnMHofWjaY-3">
+          <mxGeometry x="40" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.46;exitY=1.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="UiU7_h_Eb1dnMHofWjaY-3" source="UiU7_h_Eb1dnMHofWjaY-5" target="UiU7_h_Eb1dnMHofWjaY-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-260" y="190" as="sourcePoint" />
+            <mxPoint x="10" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-9" value="Rotina para o usuário&#xa; alterar o treino salvo&#xa;" style="swimlane;startSize=90;" vertex="1" parent="1">
+          <mxGeometry x="95" y="370" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-10" value="Com o usuário logado, o mesmo pode clicar em &quot;editar&quot; para abrir a opção de alterar seus exercicios&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="UiU7_h_Eb1dnMHofWjaY-9">
+          <mxGeometry x="35" y="100" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-12" value="Usuário altera seus treinos e salva após finalizar." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UiU7_h_Eb1dnMHofWjaY-9">
+          <mxGeometry x="35" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="UiU7_h_Eb1dnMHofWjaY-9" source="UiU7_h_Eb1dnMHofWjaY-10" target="UiU7_h_Eb1dnMHofWjaY-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="260" as="sourcePoint" />
+            <mxPoint x="95" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-13" value="Rotina de consulta de treinos&#xa;(usuário não autenticado)" style="swimlane;startSize=60;" vertex="1" parent="1">
+          <mxGeometry x="390" y="370" width="200" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-14" value="Usuário clica em &quot;Treinos&quot;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UiU7_h_Eb1dnMHofWjaY-13">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-15" value="Usuário tem acesso&lt;br&gt;a treinos pré definidos&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UiU7_h_Eb1dnMHofWjaY-13">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-16" value="Usuário treina." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UiU7_h_Eb1dnMHofWjaY-13">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="UiU7_h_Eb1dnMHofWjaY-13" source="UiU7_h_Eb1dnMHofWjaY-15" target="UiU7_h_Eb1dnMHofWjaY-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="240" as="sourcePoint" />
+            <mxPoint x="140" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.458;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="UiU7_h_Eb1dnMHofWjaY-13" source="UiU7_h_Eb1dnMHofWjaY-14" target="UiU7_h_Eb1dnMHofWjaY-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="240" as="sourcePoint" />
+            <mxPoint x="250" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-19" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="680" y="370" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-22" value="Usuário clica em &quot;Excluir&quot;&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="UiU7_h_Eb1dnMHofWjaY-19">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-23" value="Treino é removido&amp;nbsp;&lt;br&gt;do perfil do usuário" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UiU7_h_Eb1dnMHofWjaY-19">
+          <mxGeometry x="50" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-20" value="Usuário clica em &quot;Treinos&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UiU7_h_Eb1dnMHofWjaY-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UiU7_h_Eb1dnMHofWjaY-20" target="UiU7_h_Eb1dnMHofWjaY-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="450" as="sourcePoint" />
+            <mxPoint x="820" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
