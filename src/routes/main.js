@@ -1,7 +1,7 @@
 var users = [
   {
     username: "gui",
-    password: "cuia",
+    password: "123",
   },
   {
     username: "lipe",
@@ -12,14 +12,15 @@ var users = [
 function getInfo() {
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
-  for (i = 0; i < objPeople.length; i++) {
-    if (
-      username == objPeople[i].username &&
-      password == objPeople[i].password
-    ) {
-      console.log(username + " , concluiu seu login com sucesso!");
-    } else {
-      console.log("Usuário ou senha incorretos");
+  for (i = 0; i < users.length; i++) {
+    if (username == users[i].username && password == users[i].password) 
+    {
+      alert(username + " , concluiu seu login com sucesso!");
+    } 
+    else {
+      alert("Usuário ou senha incorretos");
     }
   }
 }
+
+//Rotina simples para autenticação
